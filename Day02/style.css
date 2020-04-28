@@ -15,9 +15,10 @@ body {
 
 h2 {
   font-family: "Major Mono Display", monospace;
-  font-size: 5em;
+  font-size: 2em;
   color: #fffee4;
   text-align: center;
+  margin-top: 7vw;
 }
 
 @media only screen and (max-width: 768px) {
