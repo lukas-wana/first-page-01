@@ -2,7 +2,7 @@
 
 
 .mainbox {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center
 }
@@ -11,12 +11,12 @@
 	display: flex;
 	flex-direction: row-reverse;
   flex-wrap: wrap;
-	width: 50vw;
+	width: 30vw;
 }
 
 .item {
-	width: 25vw;
-	height: 25vw;
+	width: 15vw;
+	height: 15vw;
 }
 
 .green {
@@ -46,7 +46,8 @@ body {
 
 h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 8vw;
+  font-size: 6vw;
   text-align: center;
   color: #ffd62a;
+  margin: 20px;
 }
