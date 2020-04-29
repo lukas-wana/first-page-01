@@ -1,134 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-
-/* global */
-:root {
-  --curve: cubic-bezier(0.2, 1, 0.6, 1);
+.header {
+	background: #0ff;
+	height: 150px;
 }
 
-body {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(28, 38, 47, 1) 0%,
-    rgba(37, 47, 57, 1) 90%
-  );
+.content {
+	display: flex;
+	height: 750px;
 }
 
-h2 {
-  font-family: "Major Mono Display", monospace;
-  font-size: 2em;
-  color: #fffee4;
-  text-align: center;
-  margin-top: 7vw;
+.lside {
+	width: 450px;
+	background: #ffa500;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  h2 {
-    display:none;
-  }
+.main {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	width: 100%;
+	background: #f00;
+	margin: 0 20px 0 20px;
 }
 
-/* frame */
-.bg-frame {
-  width: 400px;
-  height: 400px;
-  background-color: #fffee4;
-  border-radius: 50%;
-  box-shadow: 0 10px 20px #fffee4;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.bbox {
+	background: #000;
+	width: 75px;
+	height: 75px;
+	margin: 20px;
 }
 
-/* squares */
-.square-first {
-  width: 96px;
-  height: 96px;
-  background-color: #46466e;
-  border-radius: 35px;
-  position: relative;
-  top: 152px;
-  left: 152px;
-  animation: first 4s var(--curve) 0s infinite alternate both;
+.rside {
+	width: 450px;
+	background: #800080;
 }
 
-.square-second {
-  width: 64px;
-  height: 64px;
-  background-color: #a6ed8e;
-  border-radius: 20px;
-  position: absolute;
-  top: 168px;
-  left: 168px;
-  animation: second 4s var(--curve) 0s infinite alternate both;
-}
-
-.square-third {
-  width: 32px;
-  height: 32px;
-  background-color: #f2ffdf;
-  border-radius: 11px;
-  position: absolute;
-  top: 184px;
-  left: 184px;
-  animation: third 4s var(--curve) 0s infinite alternate both;
-}
-
-/* keyframes */
-@keyframes first {
-  0% {
-    transform: scale(0) rotate(0deg);
-    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0);
-  }
-  20% {
-    transform: scale(0) rotate(0deg);
-    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0);
-  }
-  50% {
-    transform: scale(1) rotate(360deg);
-    box-shadow: 8px 8px 16px 0 hsla(0, 0%, 0%, 0.4);
-  }
-  100% {
-    transform: scale(1) rotate(360deg);
-    box-shadow: 8px 8px 16px 0 hsla(0, 0%, 0%, 0.4);
-  }
-}
-
-@keyframes second {
-  0% {
-    transform: scale(0) rotate(0deg);
-    box-shadow: 1px 1px 1px 1px hsla(0, 33%, 1%, 0.1);
-  }
-  30% {
-    transform: scale(0) rotate(0deg);
-    box-shadow: 1px 1px 1px 1px hsla(0, 0%, 0%, 0.1);
-  }
-  60% {
-    transform: scale(1) rotate(-360deg);
-    box-shadow: 4px 4px 8px 0 hsla(0, 0%, 0%, 0.4);
-  }
-  100% {
-    transform: scale(1) rotate(-360deg);
-    box-shadow: 4px 4px 8px 0 hsla(0, 0%, 0%, 0.4);
-  }
-}
-
-@keyframes third {
-  0% {
-    transform: scale(0) rotate(0deg);
-    box-shadow: 0.5px 0.5px 0.5px 0.5px hsla(0, 0%, 0%, 0.1);
-  }
-  40% {
-    transform: scale(0) rotate(0deg);
-    box-shadow: 0.5px 0.5px 0.5px 0.5px hsla(0, 0%, 0%, 0.1);
-  }
-  100% {
-    transform: scale(1) rotate(360deg);
-    box-shadow: 2px 2px 4px 0 hsla(0, 0%, 0%, 0.4);
-  }
-  100% {
-    transform: scale(1) rotate(360deg);
-    box-shadow: 2px 2px 4px 0 hsla(0, 0%, 0%, 0.4);
-  }
+.footer {
+	height: 150px;
+	background: #00f;
 }

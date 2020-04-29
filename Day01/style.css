@@ -1,6 +1,10 @@
+body {
+  color: rgb(39, 39, 39);
+}
+
 .headof h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 57px;
   font-weight: 400;
   margin: 20px 0 0 0;
 }
@@ -10,7 +14,7 @@
   font-family: 'Barlow', sans-serif;
   font-size: 40px;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  padding: 5px 0 5px 0;
 }
 
 .headof .sub-paragraph {
@@ -29,14 +33,14 @@
 }
 
 .longimage {
-  display: flex;
-
-  position: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+  background-image: url("img/main-head-img.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -69,11 +73,11 @@
 }
 
 .card {
-  width: 180px;
+  width: 164px;
   text-align: center;
   color: rgb(39, 39, 39);
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding: 10px;
+  margin: 5px;
   border: 3px solid rgb(39, 39, 39);
 }
 
