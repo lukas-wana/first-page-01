@@ -6,7 +6,7 @@ body {
   text-align: center;
   font-size: 57px;
   font-weight: 400;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .headof p {
@@ -72,15 +72,27 @@ body {
   font-weight: 300;
 }
 
-.card {
-  width: 164px;
-  text-align: center;
-  color: rgb(39, 39, 39);
-  padding: 10px;
-  margin: 5px;
-  border: 3px solid rgb(39, 39, 39);
+@media screen and (min-width: 636px) {
+  .card {
+    width: 164px;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid rgb(39, 39, 39);
+  }
 }
 
+@media screen and (max-width: 635px) {
+  .card {
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid rgb(39, 39, 39);
+  }
+}
 .card:hover {
   background: rgb(204, 204, 204);
 }
