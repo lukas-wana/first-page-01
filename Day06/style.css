@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+
+}
+
+.topmenu {
+	display: flex;
+	width: 750px;
+	align-items: center;
+	justify-content: center;
+	background-color: #222;
+	height: 80px;
+}
+
+a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: #fff;
+	display: block;
+	margin: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff0;
+}
+
+img {
+	width: 340px;
+	height: 100%;
+	object-fit: cover;
+}
+
+.top-image {
+	width: 340px;
+	height: 440px;
+}
+
+.top-header {
+	z-index: 2;
+	position: absolute;
+	top: 310px;
+	left: 40px;
+	width: 300px;
+	line-height: 1;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	font-size: 73px;
+	color: #222;
+	text-align: left;
+	margin: 0;
+}
+
+h1.small {
+	font-size: 40px;
+}
+
+.content {
+	width: 750px;
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 40px;
+}
+
+.left {
+	left: 0px;
+	width: 440px;
+	float: left;
+}
+
+.right {
+	width: 460px;
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+p.small {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+blockquote {
+	background-color: #333;
+	padding: 60px;
+	margin: 0;
+	width: 220px;
+}
+
+blockquote h2 {
+	display: inline;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	line-height: 70px;
+	font-size: 50px;
+	color: #fff;
+	margin-left: -80px;
+}
+
+blockquote::before {
+	position: absolute;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	position: relative;
+	content: '“';
+	line-height: 0px;
+	color: #fff;
+	font-size: 140px;
+	top: 0px;
+	left: -60px;
+}
+
+.bigcases {
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	color: #333;
+	line-height: 30px;
+}
+
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	color: #333;
+	margin: 0;
+	line-height: 30px;
+}
+
+h4 {
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: #333;
+	margin: 0;
+}
+
+.big ul li {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+ul {
+	list-style-type: square;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+ul li {
+	font-size: 15px;
+	line-height: 28px;
+}

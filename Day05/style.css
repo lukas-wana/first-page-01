@@ -1,0 +1,158 @@
+.header {
+	margin: -8px;
+}
+
+.blackline {
+	background-color: #222;
+	height: 5px;
+}
+
+.top-image img {
+	max-height: 403px;
+	z-index: -1;
+}
+
+.top-box {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.top-header {
+	position: absolute;
+	align-self: flex-end;
+	padding-bottom: 40px;
+	z-index: 2;
+	margin-left: -40px;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	font-size: 73px;
+	color: #222;
+	margin: 0;
+}
+
+h1.small {
+	font-size: 36px;
+	margin-bottom: -20px;
+}
+/* obsah */
+.content {
+	max-width: 700px;
+	margin: auto;
+}
+
+.chapter {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0 20px 0;
+}
+
+.chapter {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+p.small {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+blockquote {
+	position: relative;
+	background-color: #333;
+	width: 700px;
+	padding: 60px;
+	left: -100px;
+	top: -10px;
+}
+
+blockquote h2 {
+	display: inline;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	line-height: 70px;
+	font-size: 50px;
+	color: #fff;
+	margin-left: -80px;
+}
+
+blockquote::before {
+	position: absolute;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	position: relative;
+	content: '“';
+	line-height: 0px;
+	color: #fff;
+	font-size: 140px;
+	top: 0px;
+	left: -60px;
+}
+
+.bigcases {
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	color: #333;
+	margin: 0;
+	line-height: 35px;
+}
+
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+	color: #333;
+	margin: 0;
+	line-height: 16px;
+	padding-top: 10px;
+}
+
+h4 {
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.big ul li {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+ul {
+	list-style-type: square;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+ul li {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.blacklines {
+	background-color: #222;
+	height: 3px;
+	margin: -20px -20px 30px;
+}
