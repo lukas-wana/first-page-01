@@ -26,28 +26,10 @@ body {
 }
 
 .line1 {
-  height: 1px;
+  height: 2px;
   background-color:	rgb(236, 234, 234);
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.longimage {
-  background-image: url("img/main-head-img.jpg");
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.container {
-  font-family: 'Barlow', sans-serif;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card-holder {
@@ -72,26 +54,77 @@ body {
   font-weight: 300;
 }
 
-@media screen and (min-width: 636px) {
+.container {
+  font-family: 'Barlow', sans-serif;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* big */
+@media screen and (min-width: 800px) {
   .card {
-    width: 164px;
+    width: 180px;
     text-align: center;
     color: rgb(39, 39, 39);
-    padding: 10px;
-    margin: 5px;
-    border: 3px solid rgb(39, 39, 39);
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid rgb(236, 234, 234);
+  }
+  .longimage {
+    background-image: url("img/main-head-img.jpg");
+    height: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 635px) {
+/* middle */
+@media screen and (min-width: 690px) {
+  .card {
+    width: 180px;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    padding: 5vw;
+    border: 2px solid rgb(236, 234, 234);
+  }
+  .longimage {
+    background-image: url("img/main-head-img.jpg");
+    height: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+}
+
+/* small */
+@media screen and (max-width: 689px) {
   .card {
     width: 100%;
     text-align: center;
     color: rgb(39, 39, 39);
     padding: 10px;
     margin: 5px;
-    border: 3px solid rgb(39, 39, 39);
+    border: 2px solid rgb(236, 234, 234);
   }
+  .longimage {
+    background-image: url("img/main-head-img.jpg");
+    height: 45vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
 }
 .card:hover {
   background: rgb(204, 204, 204);
